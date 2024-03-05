@@ -1,0 +1,95 @@
+.img
+{
+	width: 120px;
+	height: 120px;
+	border: 3px solid #ffc31b !important;
+	opacity: 0.8;
+	border-radius: 50%; border: 2px solid red;
+	margin-bottom: 12px !important;	
+}
+.profile_lable
+{
+	width: 112px;
+	height: 112px;
+	border-radius: 50%; 
+	margin-top: -127px;
+	margin-left: -56px;
+	cursor: pointer;
+	position: absolute !important;
+}
+.profile_lable:hover
+{
+	transform: scale(1.04);
+	cursor: pointer;
+	background-color: rgba(0,0,0,0.3);
+}
+.orverlay
+{
+	position: absolute;
+	width: 115px;
+	height: 118px;
+	vertical-align: middle;
+	border-radius: 50%;
+	margin-top: -3px;
+	padding-top: 35%;
+	font-size: 35px;
+	left: -1%;
+	opacity: 0;
+}
+.orverlay:hover
+{
+	opacity: 1;
+	display: block;
+	color: #fff;
+	font-weight: bolder;
+}
+.bradius
+{
+	border-radius: 0% !important;
+}
+.back
+{
+	margin-top: 10px !important;
+	padding: 0px 15px 0 15px !important;
+}
+.pro_img
+{
+	width: 	50px !important;
+	height: 45px !important;
+	border-radius: 50% !important;
+}
+.v-align
+{
+	vertical-align: middle !important;
+	padding: 0px !important;
+	margin: 0px !important;
+}
+.center
+{
+	text-align: center;
+}
+
+.loader 
+{
+	border: 4px solid #f3f3f3;
+	border-radius: 50%;
+	border-top: 4px solid transparent;
+	width: 60px;
+	margin-left: 272px;
+	height: 60px;
+	-webkit-animation: spin 1s linear infinite; /* Safari */
+	animation: spin 1s linear infinite;
+}
+
+/* Safari */
+@-webkit-keyframes spin 
+{
+	0% { -webkit-transform: rotate(0deg); }
+	100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin 
+{
+	0% { transform: rotate(0deg); }
+	100% { transform: rotate(360deg); }
+}

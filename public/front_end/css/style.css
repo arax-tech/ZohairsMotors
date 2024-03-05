@@ -1,0 +1,36 @@
+.loader {
+  border: 3px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 4px solid transparent;
+  width: 50px;
+  height: 50px;
+  -webkit-animation: spin 2s linear infinite; /* Safari */
+  animation: spin 1s linear infinite;
+}
+
+/* Safari */
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+.coupon-input{height: 45px !important; line-height: 45px!important; width: 280px!important; padding-left: 25px!important; border-radius: 20px 0 0 20px!important;}
+.coupon-submit{height: 45px!important; line-height: 35px!important; width: 150px!important; margin-top: -5px!important; margin-top: -95px!important; margin-left: 319px!important; background-color: #FE980F!important; outline: none!important; border: none!important; color: #fff!important; border-radius: 0 20px 20px 0!important;}
+
+.shop_now{
+  background: #FE980F !important;
+  border: 0 none !important;
+  border-radius: 0 !important;
+  color: #FFFFFF !important;
+  font-family: 'Roboto', sans-serif !important;
+  font-size: 16px !important;
+  font-weight: 300 !important;
+  margin-top: 23px !important;
+}
+
+.custom-form-control{outline: none;background: #F0F0E9 !important; border: 0 none !important; margin-top: -5px !important; padding: 8px 8px 8px 25px !important; width: 100% !important; font-weight: 300 !important; border-radius: 15px 0px 0px 15px;}
+.custom-input-btn{outline: none;background: #FE980F !important; border: 0 none !important; margin-top: -5px !important; padding: 8px 20px 8px 20px !important; font-weight: 300 !important; color: #fff !important; border-radius: 0px 15px 15px 0px; }
